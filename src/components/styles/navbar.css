@@ -1,0 +1,15 @@
+.nav-item {
+  background: #eee;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}
