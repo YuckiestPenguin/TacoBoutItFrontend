@@ -1,0 +1,7 @@
+figcaption {
+  position: absolute;
+  top: 2rem;
+  margin: 0 2rem;
+  color: white;
+  font-size: 3.5em;
+}
