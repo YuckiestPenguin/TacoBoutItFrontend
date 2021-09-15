@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faLinkedin,
-  faGithub,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 const styles = {
@@ -30,8 +30,8 @@ export default function SocialFollow() {
         <a href="https://www.linkedin.com/" className="Linkedin social">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
-        <a href="https://www.github.com/" className="Github social">
-          <FontAwesomeIcon icon={faGithub} size="2x" />
+        <a href="https://www.twitter.com/" className="Twitter social">
+          <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
       </div>
     </section>
