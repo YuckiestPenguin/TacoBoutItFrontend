@@ -1,18 +1,8 @@
 import React from "react";
 import TacoPaco from "../../img/tacopaco.png";
 import SocialFollow from "../../components/SocialFollow";
+
 import "../../App.css";
-
-// const styles = {
-//   card: {
-//     background: "#D3D3D3",
-//     height: "100%",
-//   },
-
-//   font: {
-//     color: "white",
-//   },
-// };
 
 export default function Home() {
   return (

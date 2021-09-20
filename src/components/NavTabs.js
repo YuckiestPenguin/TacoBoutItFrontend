@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../img/BestTaco.png";
 import Nav from "../components/styles/navbar.css";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
@@ -6,6 +7,7 @@ import Nav from "../components/styles/navbar.css";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
+      <img src={Logo} style={{ height: 100, width: 75 }} alt="Logo" />
       <li className="nav-item">
         <a
           href="#home"
