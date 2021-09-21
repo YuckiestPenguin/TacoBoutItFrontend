@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+  text-align: center;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.facebook {
+  color: #4968ad;
+}
+
+figcaption {
+  position: absolute;
+  top: 5rem;
+  margin: 0 2rem;
+  color: white;
+  font-size: 3.5em;
+}
